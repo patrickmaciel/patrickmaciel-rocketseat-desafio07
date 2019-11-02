@@ -1,15 +1,11 @@
-import React from "react";
-import { Text, View } from "react-native"; // StyleSheet
+import React from 'react';
 
-import "./config/ReactotronConfig";
+import './config/ReactotronConfig';
+
+import Routes from './routes';
 
 // import { Container } from './styles';
 
-console.tron.log("teste");
 export default function App() {
-  return (
-    <View>
-      <Text>Opa</Text>
-    </View>
-  );
+  return <Routes />;
 }
