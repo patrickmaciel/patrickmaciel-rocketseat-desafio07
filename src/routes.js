@@ -11,11 +11,11 @@ const Routes = createAppContainer(
       Cart,
     },
     {
-      headerLayoutPreset: 'center',
+      headerLayoutPreset: 'left',
       headerBackTitleVisible: false,
       defaultNavigationOptions: {
         headerStyle: {
-          backgroundColor: '#7159c1',
+          backgroundColor: '#191920',
         },
         headerTintColor: '#fff',
       },

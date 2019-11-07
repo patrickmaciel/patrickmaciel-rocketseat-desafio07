@@ -1,12 +1,15 @@
 import React from 'react';
-import { View } from 'react-native';
+import { Button } from 'react-native';
 
 import { Container } from './styles';
+
+import LogoTitle from '../../components/LogoTitle';
 
 export default function Main() {
   return <Container />;
 }
 
 Main.navigationOptions = {
-  title: 'Rocketshoes',
+  headerTitle: () => <LogoTitle />,
+  // headerRight: () => <Button onPress={() => {}} title="Cart" color="#fff" />,
 };
